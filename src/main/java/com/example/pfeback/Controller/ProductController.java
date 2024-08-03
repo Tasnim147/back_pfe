@@ -22,6 +22,8 @@ import java.util.Map;
  * Controller for managing products.
  */
 @RestController
+@RequestMapping("/api/products")
+@CrossOrigin(origins = "http://localhost:4200")
 public class ProductController {
     private static final String UPLOAD_DIR = "uploads/";
 
